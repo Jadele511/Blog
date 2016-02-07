@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<div class="jumbotron text-center">
+<h1>Jade's blog </h1>
+<h3> Story of a wanderer </h3>
+
+<%= render @articles %>
+
+<% if @articles.present? %>
+  <%= render @articles %>
+<% else %>
+  <p>There are no posts containing the term(s) <%= params[:search] %>.</p>
+<% end %>
+
+<br>
+
+<btn class="btn btn-sucess"><%= link_to 'New Article', new_article_path %> </btn>
+</div>
+
