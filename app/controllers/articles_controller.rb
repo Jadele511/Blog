@@ -80,6 +80,3 @@ class ArticlesController < ApplicationController
     end
 end
 
-class WidgetsController < ApplicationController
-  impressionist 
-end

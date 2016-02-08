@@ -28,9 +28,6 @@ gem 'bootstrap', '~> 4.0.0.alpha3'
 #Markdow reference 
 gem 'redcarpet'
 
-# Count view on blog
-gem 'impressionist'
-
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
