@@ -6,7 +6,7 @@ Jade's blog is a Ruby on Rails blog application.
 
 Submitted by: Jade Le
 
-Time spent: 15 hours spent in total
+Time spent: 20 hours spent in total
 
 URL: still-retreat-22220.herokuapp.com
 
