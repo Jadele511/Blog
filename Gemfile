@@ -28,7 +28,6 @@ gem 'bootstrap', '~> 4.0.0.alpha3'
 #Markdow reference 
 gem 'redcarpet'
 
-
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

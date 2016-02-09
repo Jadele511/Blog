@@ -17,9 +17,9 @@
       <a class="nav-link" href="#">About</a>
     </li>
   </ul>
-    <%= form_tag(articles_path, :method => "get", class: "navbar-form", id: "search-form") do %>
-    	<button class="btn btn-success-outline form-inline pull-xs-right"  type="submit">Submit</button>	
-    	<%= text_field_tag :search, params[:search], class: "form-inline pull-xs-right", placeholder: "Search" %>	    
+    <%= form_tag(articles_path, :method => "get", class: "navbar-form form-inline pull-xs-right", id: "search-form") do %>
+      <%= text_field_tag :search, params[:search], class: " form-control", placeholder: "Search" %>   
+    	<button class="btn btn-success-outline "  type="submit">Submit</button>	
 	  <% end %>
 
 	 

@@ -4,7 +4,6 @@
 <h1>Jade's blog </h1>
 <h3> Story of a wanderer </h3>
 
-<%= render @articles %>
 
 <% if @articles.present? %>
   <%= render @articles %>
@@ -14,6 +13,6 @@
 
 <br>
 
-<btn class="btn btn-sucess"><%= link_to 'New Article', new_article_path %> </btn>
+<btn class="btn btn-success"><%= link_to 'New Article', new_article_path %> </btn>
 </div>
 

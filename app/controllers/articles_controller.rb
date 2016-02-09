@@ -16,7 +16,10 @@ class ArticlesController < ApplicationController
   # GET /articles/1
   # GET /articles/1.json
   def show
-   
+    @article.increment
+
+    @comment = Comment.new
+    @comment.article_id = @article.id
   end
 
   # GET /articles/new
@@ -32,7 +35,7 @@ class ArticlesController < ApplicationController
   # POST /articles.json
   def create
     @article = Article.new(article_params)
-
+    
     respond_to do |format|
       if @article.save
         format.html { redirect_to @article, notice: 'Article was successfully created.' }
