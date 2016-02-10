@@ -1,7 +1,7 @@
-<h3>Post a Comment</h3>
-<p>(Comment form will go here)</p>
+<p><strong>Post a Comment</strong></p>
 
-<%= form_for(@comment) do |f| %>
+
+<%= form_for [@article, @comment] do |f| %>
   <% if @comment.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
@@ -22,10 +22,7 @@
     <%= f.label :author %><br>
     <%= f.text_field :author %>
   </div>
-  <div class="field">
-    <%= f.label :article_id %><br>
-    <%= f.number_field :article_id %>
-  </div>
+  
   <div class="actions">
     <%= f.submit %>
   </div>
