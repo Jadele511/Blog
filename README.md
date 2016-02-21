@@ -30,4 +30,4 @@ The following **optional** features are implemented:
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
-![Video Walkthrough](Jade's_blog.gif)
+![Video Walkthrough](JADE'S BLOG.gif)
