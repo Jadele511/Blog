@@ -6,7 +6,7 @@
 
 
 <% if @articles.present? %>
-  <%= render @articles %>
+  <%= render @articles.reverse %>
 <% else %>
   <p>There are no posts containing the term(s) <%= params[:search] %>.</p>
 <% end %>
