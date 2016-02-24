@@ -1,28 +1,37 @@
-== README
+# Pre-work - *Jade Blog*
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Jade blog** is a Ruby on Rails blog application.
 
-Things you may want to cover:
+Submitted by: **Jade Le**
 
-* Ruby version
+Time spent: **25** hours spent in total
 
-* System dependencies
+URL: **still-retreat-22220.herokuapp.com**
 
-* Configuration
+## User Stories
 
-* Database creation
+The following **required** functionality is complete:
 
-* Database initialization
+> HINT: mark the items you completed with [x]
 
-* How to run the test suite
+* [ X] User can create a new post, formatted using the Markdown language.
+* [X ] User can edit an existing post.
+* [X ] There is one post that introduces the App Creator with name, picture.
+* [ X] User can delete stories, with an alert that asks the user to confirm.
+* [X ] User see a search form on the Posts page.
+* [X ] User can submit a search term to find all posts bywith titles containing the search term.
 
-* Services (job queues, cache servers, search engines, etc.)
+The following **optional** features are implemented:
+* [ X] There is a "navbar" that is responsive to window size similar to http://v4-alpha.getbootstrap.com/examples/navbar/. 
+* [X ] User can see how many views a post has. 
+* [X ] User can leave a comment on a post.
+* [X ] User can add "tags" to a post, and filter posts by tag. 
 
-* Deployment instructions
 
-* ...
+## Video Walkthrough 
 
+Here's a walkthrough of implemented user stories:
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+![Video Walkthrough](Jadeblog.gif)
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
